@@ -2,7 +2,7 @@
 
 ## install
 
-```json
+```bash
 yarn add @mkvlrn/tsconfig -D
 ```
 

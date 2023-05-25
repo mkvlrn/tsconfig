@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "build",
     "module": "NodeNext",
     "target": "ES2022",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],

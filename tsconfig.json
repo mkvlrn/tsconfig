@@ -3,8 +3,6 @@
     "module": "NodeNext",
     "target": "ES2022",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "baseUrl": ".",
-    "paths": { "#/*": ["src/*"] },
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

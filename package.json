@@ -1,0 +1,17 @@
+{
+  "name": "@mkvlrn/tsconfig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mike Valeriano <mkvlrn@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkvlrn/tsconfig"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "files": [
+    "tsconfig.json"
+  ]
+}

@@ -12,6 +12,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "moduleResolution": "NodeNext",
+    "noEmit": true,
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,

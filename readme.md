@@ -3,7 +3,7 @@
 ## install
 
 ```bash
-yarn add @mkvlrn/tsconfig -D
+pnpm add @mkvlrn/tsconfig -D
 ```
 
 ## extend config in your tsconfig.json

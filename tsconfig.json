@@ -13,6 +13,7 @@
     "jsx": "react-jsx",
     "moduleResolution": "NodeNext",
     "noEmit": true,
+    "preserveSymlinks": true,
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,

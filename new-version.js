@@ -15,8 +15,8 @@ if (status.trim() !== "") {
   process.exit(1);
 }
 // update package.json file using a child process
-execSync(`npm pkg set version=v${newVersion}`);
+execSync(`npm pkg set version=v${version}`);
 // create commit with updated package.json and tag
-execSync(`git commit -am "v${newVersion}"`);
+execSync(`git commit -am "v${version}"`);
 // create annotated tag
-execSync(`git tag -a v${newVersion} -m "Release ${newVersion}"`);
+execSync(`git tag -a v${version} -m "Release ${version}"`);

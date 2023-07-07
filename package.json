@@ -1,6 +1,6 @@
 {
   "name": "@mkvlrn/tsconfig",
-  "version": "2023.07.07-5",
+  "version": "2023.07.07-6",
   "main": "tsconfig.json",
   "author": "Mike Valeriano <mkvlrn@gmail.com>",
   "license": "MIT",

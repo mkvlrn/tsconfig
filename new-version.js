@@ -4,7 +4,9 @@ import { execSync } from "node:child_process";
 
 calver.useLocalTimme = true;
 const format = "YYYY.MM.DD.patch";
-const newVersion = calver.inc(format, pkgJson.version.replace("v", ""), "calendar.patch");
+let version = calver.inc(format, pkgJson.version.replace("-", "."), "calendar.patch");
+const hyphen = version.lastIndexOf(".");
+version = version.slice(0, hyphen) + "-" + version.slice(hyphen + 1).replace(".", "-");
 
 // checks if git is clean, exits with message if not
 const status = execSync("git status --porcelain", { encoding: "utf-8" });

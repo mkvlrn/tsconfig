@@ -3,7 +3,7 @@ import pkgJson from "./package.json" assert { type: "json" };
 import { execSync } from "node:child_process";
 
 calver.useLocalTimme = true;
-const format = "YYYY.MM.DD.patch";
+const format = "YYYY.0M.0D.patch";
 let version = calver.inc(format, pkgJson.version.replace("-", "."), "calendar.patch");
 const hyphen = version.lastIndexOf(".");
 version = version.slice(0, hyphen) + "-" + version.slice(hyphen + 1).replace(".", "-");

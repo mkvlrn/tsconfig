@@ -1,17 +1,19 @@
 {
   "name": "@mkvlrn/tsconfig",
-  "version": "1.0.9",
+  "version": "",
   "main": "tsconfig.json",
   "author": "Mike Valeriano <mkvlrn@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/mkvlrn/tsconfig"
   },
   "scripts": {
-    "ncu": "ncu --dep dev,peer -u"
+    "new-version": "node new-version"
   },
   "devDependencies": {
+    "calver": "^22.9.1",
     "prettier": "^3.0.0"
   },
   "files": [

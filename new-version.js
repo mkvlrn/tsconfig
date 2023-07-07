@@ -2,7 +2,7 @@ import calver from "calver";
 import pkgJson from "./package.json" assert { type: "json" };
 import { execSync } from "node:child_process";
 
-const format = "YYYY.MM.DD.patch";
+const format = "vYYYY.MM.DD.patch";
 const newVersion = calver.inc(format, pkgJson.version, "calendar");
 
 // checks if git is clean, exits with message if not

@@ -10,7 +10,7 @@
     "url": "https://github.com/mkvlrn/tsconfig"
   },
   "scripts": {
-    "new-version": "node new-version"
+    "new-version": "node --no-warnings=ExperimentalWarnings new-version --no-warnings"
   },
   "devDependencies": {
     "calver": "^22.9.1",

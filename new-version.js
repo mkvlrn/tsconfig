@@ -14,7 +14,7 @@ if (status.trim() !== "") {
 }
 // update package.json file using a child process
 execSync(`npm pkg set version=v${newVersion}`);
-// create annotated tag
-execSync(`git tag -a v${newVersion} -m "Release ${newVersion}"`);
 // create commit with updated package.json and tag
 execSync(`git commit -am "v${newVersion}"`);
+// create annotated tag
+execSync(`git tag -a v${newVersion} -m "Release ${newVersion}"`);

@@ -9,11 +9,7 @@
     "type": "git",
     "url": "https://github.com/mkvlrn/tsconfig"
   },
-  "scripts": {
-    "new-version": "node --no-warnings=ExperimentalWarnings new-version --no-warnings"
-  },
   "devDependencies": {
-    "calver": "^22.9.1",
     "prettier": "^3.0.0"
   },
   "files": [
